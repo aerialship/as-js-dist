@@ -1,0 +1,16 @@
+{
+    "name": "as-js",
+    "repo": "aerialship/as-js-dist",
+    "version": "0.2.0",
+    "description": "Lightweight javascript browser framework that minimize writing of javascript with implementation of common operations and their easy binding to DOM trough special data attributes.",
+    "keywords": [
+        "javascript",
+        "browser",
+        "library"
+    ],
+    "main": "as.min.js",
+    "scripts": [
+        "as.min.js"
+    ],
+    "license": "MIT"
+}

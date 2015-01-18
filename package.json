@@ -1,0 +1,27 @@
+{
+  "name": "as-js",
+  "version": "0.2.0",
+  "description": "Lightweight javascript browser framework that minimize writing of javascript with implementation of common operations and their easy binding to DOM trough special data attributes.",
+  "main": "as.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aerialship/as-js-dist.git"
+  },
+  "keywords": [
+    "javascript",
+    "browser",
+    "library"
+  ],
+  "author": {
+    "name": "AerialShip foundation and contributors",
+    "url": "http://aerialship.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aerialship/as-js/issues"
+  },
+  "homepage": "http://aeralship.com/as-js"
+}

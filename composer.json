@@ -1,0 +1,31 @@
+{
+    "name": "aerialship/as-js-dist",
+    "description": "Lightweight javascript browser framework that minimize writing of javascript with implementation of common operations and their easy binding to DOM trough special data attributes.",
+    "type": "component",
+    "homepage": "http://aerialship.com/as-js",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/aerialship/as-js/issues",
+        "wiki": "https://github.com/aerialship/as-js/doc",
+        "source": "https://github.com/aerialship/as-js"
+    },
+    "authors": [
+        {
+            "name": "AerialShip",
+            "email": "aerialship@gmail.com"
+        }
+    ],
+    "require": {
+        "robloach/component-installer": "*"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "as.js"
+            ],
+            "files": [
+                "as.min.js"
+            ]
+        }
+    }
+}

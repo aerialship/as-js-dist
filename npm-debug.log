@@ -1,0 +1,73 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\mtomic\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\mtomic\\AppData\\Roaming\\npm-cache\\as-js\\0.2.0\\package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\mtomic\AppData\Roaming\npm-cache\as-js\0.2.0\package.tgz
+13 verbose folder .
+14 info prepublish as-js@0.2.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\mtomic\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 3fc20beb-pm-cache-as-js-0-2-0-package-tgz tar://C:\Users\mtomic\AppData\Roaming\npm-cache\as-js\0.2.0\package.tgz
+18 verbose lock tar://C:\Users\mtomic\AppData\Roaming\npm-cache\as-js\0.2.0\package.tgz C:\Users\mtomic\AppData\Roaming\npm-cache\3fc20beb-pm-cache-as-js-0-2-0-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 3fc20beb-pm-cache-as-js-0-2-0-package-tgz tar://C:\Users\mtomic\AppData\Roaming\npm-cache\as-js\0.2.0\package.tgz
+22 silly lockFile 3fc20beb-pm-cache-as-js-0-2-0-package-tgz tar://C:\Users\mtomic\AppData\Roaming\npm-cache\as-js\0.2.0\package.tgz
+23 silly lockFile 418a37a8-ng-npm-cache-as-js-0-2-0-package C:\Users\mtomic\AppData\Roaming\npm-cache\as-js\0.2.0\package
+24 verbose lock C:\Users\mtomic\AppData\Roaming\npm-cache\as-js\0.2.0\package C:\Users\mtomic\AppData\Roaming\npm-cache\418a37a8-ng-npm-cache-as-js-0-2-0-package.lock
+25 silly lockFile 418a37a8-ng-npm-cache-as-js-0-2-0-package C:\Users\mtomic\AppData\Roaming\npm-cache\as-js\0.2.0\package
+26 silly lockFile 418a37a8-ng-npm-cache-as-js-0-2-0-package C:\Users\mtomic\AppData\Roaming\npm-cache\as-js\0.2.0\package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'as-js',
+29 silly publish   version: '0.2.0',
+29 silly publish   description: 'Lightweight javascript browser framework that minimize writing of javascript with implementation of common operations and their easy binding to DOM trough special data attributes.',
+29 silly publish   main: 'as.min.js',
+29 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'https://github.com/aerialship/as-js-dist.git' },
+29 silly publish   keywords: [ 'javascript', 'browser', 'library' ],
+29 silly publish   author:
+29 silly publish    { name: 'AerialShip foundation and contributors',
+29 silly publish      url: 'http://aerialship.com' },
+29 silly publish   license: 'MIT',
+29 silly publish   bugs: { url: 'https://github.com/aerialship/as-js/issues' },
+29 silly publish   homepage: 'http://aeralship.com/as-js',
+29 silly publish   readme: '# as-js\n\nLightweight javascript framework that minimize writing of javascript with implementation of common operations and\ntheir easy binding to dom trough special data attribute.\n\n * [Source Code](https://github.com/aerialship/as-js)\n * [Homepage](http://aerialship.com/as-js)\n * [Documentation](http://aerialship.com/as-js/doc)\n * [Samples](http://aerialship.com/as-js/samples)\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: '470e4a8f51d04ce5725b7ab402e2d03b4be45acb',
+29 silly publish   _id: 'as-js@0.2.0',
+29 silly publish   _shasum: 'f25a40287bba2b7a1ab7b52ca69b613646dab74a',
+29 silly publish   _from: '.' }
+30 error need auth auth and email required for publishing
+30 error need auth You need to authorize this machine using `npm adduser`
+31 error System Windows_NT 6.1.7601
+32 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+33 error cwd D:\www\home\aerial\as-js-dist
+34 error node -v v0.10.32
+35 error npm -v 1.4.28
+36 error code ENEEDAUTH
+37 verbose exit [ 1, true ]
