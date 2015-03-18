@@ -1,0 +1,23 @@
+{
+    "name": "as-js",
+    "version": "0.2.1",
+    "homepage": "https://github.com/aerialship/as-js-dist",
+    "authors": [
+        "Milos Tomic <tmilos@gmail.com>"
+    ],
+    "description": "Lightweight javascript framework that minimize writing of javascript with implementation of common operations and their easy binding to dom trough special data attribute",
+    "main": "as.min.js",
+    "keywords": [
+        "javascript",
+        "browser",
+        "library"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
